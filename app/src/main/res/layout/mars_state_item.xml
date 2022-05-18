@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="18dp"
+    android:backgroundTint="@color/design_default_color_primary"
+    app:cardCornerRadius="25dp">
+
+    <ImageView
+        android:id="@+id/imageMarsState"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/idMarsState"
+        tools:text=" id "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#B3000000"
+        android:hint=" id "
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/priceMarsState"
+        tools:text=" price "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#B3000000"
+        android:hint=" price "
+        android:layout_gravity="end|bottom"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/typeMarsState"
+        tools:text="type"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#B3000000"
+        android:hint=" type "
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+</androidx.cardview.widget.CardView>

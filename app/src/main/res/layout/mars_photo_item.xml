@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/design_default_color_primary"
+    app:cardCornerRadius="25dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageMarsPhoto"/>
+
+    <TextView
+        android:hint=" id "
+        android:textStyle="italic"
+        android:background="#B3000000"
+        android:textColor="@color/white"
+        tools:text=" id "
+        android:textSize="24sp"
+        android:layout_margin="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idMarsPhoto"/>
+
+</androidx.cardview.widget.CardView>
